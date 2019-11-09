@@ -1,0 +1,21 @@
+{
+  "name": "next-react-hacker-news-progressive-app",
+  "version": "1.0.0",
+  "description": "A hacker news clone made with Next.js",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "NODE_ENV=production node server.js",
+    "build": "next build"
+  },
+  "author": "sam sadot",
+  "license": "ISC",
+  "dependencies": {
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^9.1.2",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "sw-precache-webpack-plugin": "^0.11.5",
+    "win-node-env": "^0.4.0"
+  }
+}
